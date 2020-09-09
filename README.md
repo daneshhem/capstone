@@ -7,3 +7,9 @@ Target Audience:Site is created for those that are intrested in learning more ab
 Outline:Front page to highlight the 3 pages. 1st is American sticks. 2nd will be Japanese. 3rd will be Korean sticks.
 
 User Flow: User may click on link to navigate to and from the site pages. They will have 3 pages to choose from.
+
+
+Font: "Shadows Into Light" and "Acme"(google fonts)
+
+Colors:Darker background(easier on the eyes) with Red and Blue color text. 
+
