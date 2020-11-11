@@ -1,8 +1,8 @@
-export default () => `
+export default (links) => `
 <div class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" class="right">Link</a>
+  <a href="/Home">Link</a>
+  <a href="/Bio">Link</a>
+  <a href="/Form">Link</a>
+  <a href="/Blog">Link</a>
 </div>
 `;
