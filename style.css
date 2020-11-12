@@ -1,0 +1,349 @@
+/*********************************** Header **************************************/	
+.header {	
+    padding: 80px; /* some padding */	
+    text-align: center; /* center the text */	
+    background: #000000; /* orange background */	
+    color: rgba(255, 255, 255, 0.274); /* grey text color */	
+  }	
+  
+  /* Increase the font size of the <h1> element */	
+  .header h1 {	
+    font-size: 40px;	
+  }	
+
+  /******************************* Style the top navigation bar *******************************/	
+  .navbar {	
+    overflow: hidden; /* Hide overflow */	
+    background-color: #333; /* Dark background color */	
+  }	
+  
+  /* Style the navigation bar links */	
+  .navbar a {	
+    float: left; /* Make sure that the links stay side-by-side */	
+    display: block; /* Change the display to block, for responsive reasons (see below) */	
+    color: white; /* White text color */	
+    text-align: center; /* Center the text */	
+    padding: 14px 20px; /* Add some padding */	
+    text-decoration: none; /* Remove underline */	
+  }	
+  
+  /* Right-aligned link */	
+  .navbar a.right {	
+    float: right; /* Float a link to the right */	
+  }	
+  
+  /* Change color on hover/mouse-over */	
+  .navbar a:hover {	
+    background-color: #ddd; /* Grey background color */	
+    color: black; /* Black text color */	
+  }	
+  
+  /* Ensure proper sizing */	
+  * {	
+    box-sizing: border-box;	
+  }	
+  
+  /* Column container */	
+  .row {	
+    display: flex;	
+    flex-wrap: wrap;	
+  }	
+  
+  /******************************** Create two unequal columns that sits next to each other ***********************************/	
+  /* Sidebar/ right column */	
+  .side {	
+    flex: 30%;	
+    background-color: #f1f1f1;	
+    padding: 20px;	
+  }	
+  
+  /************************* Main column *************************************************/	
+  .main {   	
+    flex: 70%;	
+    background-color: rgb(255, 255, 255);	
+    padding: 20px;	
+  }	
+  
+  /****************************************** Fake Img **********************************/	
+  .fakeimg {	
+    background-color: #aaa;	
+    width: 100%;	
+    padding: 20px;	
+  }	
+  
+  /******************************* Makes the website Responsive *****************************/	
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */	
+  @media screen and (max-width: 700px) {	
+    .row {	
+      flex-direction: column;	
+    }	
+  }	
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */	
+  @media screen and (max-width: 400px) {	
+    .navbar a {	
+      float: none;	
+      width: 100%;	
+    }	
+  }	
+  /************************ Footer Styling **********************************/	
+  .footer {	
+    padding: 20px; /* Some padding */	
+    text-align: center; /* Center text*/	
+    background: rgb(115, 147, 184); /* Grey background */	
+  } 
+/* /////main// */
+
+  bodyMain {
+    background-color:;
+    background:url(https://i.redd.it/e6deywj14lgx.jpg) ;
+    background-position: center left;
+  
+  }
+
+
+  
+  #example1 {
+    border: 10px outset darkorange;
+    padding: 15px;
+    background: tomato;
+    background-clip: border-box;  
+    
+  }
+  
+  #example2 {
+    border: 10px outset darkorange;
+    padding: 15px;
+    background: tomato;
+    background-clip: border-box;  
+  
+  }
+  
+  #example3 {
+    border: 10px outset darkorange;
+    padding: 15px;
+    background: tomato;
+    background-clip: border-box;  
+  
+  }
+
+
+
+  body {
+    background-color:;
+    background:url() ;
+    background-position: center left;
+  }
+  
+  
+  .image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  
+  #a1 {
+      max-width: 20%;
+      height: auto;
+  
+      
+      
+  }    
+  
+  
+  #a2 {
+      max-width: 20%;
+      height: auto;
+      
+  }
+  
+  
+  #a3 {
+      max-width: 20%;
+      height: auto;
+      
+  }
+
+  
+  
+  #example4 {
+    border: 10px outset blueviolet;
+    padding: 15px;
+    background: cornflowerblue;
+    background-clip: border-box;  
+    
+  }
+  
+  #example5 {
+    border: 10px outset red;
+    padding: 15px;
+    background: tomato;
+    background-clip: border-box;  
+  
+  }
+  
+  #example6 {
+    border: 10px outset blueviolet;
+    padding: 15px;
+    background: cornflowerblue;
+    background-clip: border-box;  
+  
+  }
+  
+  
+  .glow1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 6s ease-in-out infinite alternate;
+    -moz-animation: glow 6s ease-in-out infinite alternate;
+    animation: glow 6s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(17, 20, 212), 0 0 20px rgb(145, 139, 182), 0 0 30px #0b7edb, 0 0 40px #e60043, 0 0 50px #491375, 0 0 60px #3a0897, 0 0 70px #561ae0;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgba(26, 57, 94, 0.527), 0 0 30px #ff4da62, 0 0 40px #ff4da62, 0 0 50px #ff4da62, 0 0 60px #ff4da62, 0 0 70px #ff4da62, 0 0 80px #ff4da62;
+    }
+  }
+/* //japan */
+  body {
+    background-color:;
+    background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Chuurei-tou_Fujiyoshida_17025277650_c59733d6ba_o.jpg/1200px-Chuurei-tou_Fujiyoshida_17025277650_c59733d6ba_o.jpg) ;
+    background-position: center left;
+  }
+  .image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  #a1 {
+      max-width: 30%;
+      height: auto;
+  }
+  
+  #a2 {
+      max-width: 30%;
+      height: auto;
+      
+  }
+  
+  #a3 {
+      max-width: 30%;
+      height: auto;
+      
+  }
+  
+  #example7 {
+    border: 10px outset red;
+    padding: 15px;
+    background: tomato;
+    background-clip: border-box;  
+    
+  }
+  
+  #example8 {
+    border: 10px outset red;
+    padding: 15px;
+    background: tomato;
+    background-clip: border-box;  
+  
+  }
+  
+  #example9 {
+    border: 10px outset red;
+    padding: 15px;
+    background: tomato;
+    background-clip: border-box;  
+  
+  }
+  
+  .glow2 {
+    font-family:BankFuturistic	;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+  }
+  /* **hitbox** */
+
+  body {
+    background-color:;
+    background:url(https://wallpapercave.com/wp/ljZusiT.jpg) ;
+    background-position: center left;
+  }
+  .image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  #a1 {
+      max-width: 30%;
+      height: auto;
+  }
+  
+  #a2 {
+      max-width: 30%;
+      height: auto;
+      
+  }
+  
+  #a3 {
+      max-width: 30%;
+      height: auto;
+      
+  }
+  #example10 {
+    border: 10px outset darkgreen;
+    padding: 15px;
+    background: lime;
+    background-clip: border-box;  
+    
+  }
+  
+  #example11 {
+    border: 10px outset darkgreen;
+    padding: 15px;
+    background: lime;
+    background-clip: border-box;  
+  
+  }
+  
+  #example12 {
+    border: 10px outset darkgreen;
+    padding: 15px;
+    background: lime;
+    background-clip: border-box;  
+  
+  }
+  
+  .glow3 {
+    font-family:;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 7s ease-in-out infinite alternate;
+    animation: glow 4s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes .glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #c2ff1c, 0 0 40px #1e7a07, 0 0 50px #1ac028, 0 0 60px #67d181, 0 0 70px #2dcc62;
+  }
+
+}

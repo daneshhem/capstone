@@ -1,8 +1,12 @@
 export default (links) => `
 <div class="navbar">
-  <a href="/Home">Link</a>
-  <a href="/Bio">Link</a>
-  <a href="/Form">Link</a>
-  <a href="/Blog">Link</a>
+<nav class="navBar">
+
+
+  <a href="/Home">Home</a>
+  <a href="/Bio">USA</a>
+  
+  <a href="/Form">Japan</a>
+  <a href="/Blog">HitBoX</a>
 </div>
 `;
