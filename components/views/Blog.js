@@ -2,23 +2,25 @@ export default () => `
 <div id="hitbox">
 <h1 class="glow3"><u>HiTBOX</h1>
 <div id="example10">
-<p>The newest of the three. Hitbox are still i</p>
+<p>The newest of the three. The hitbox are somewhat controverial. Banned from alot of fighting game tourneys since it's so new and still up in the air if games being played were made for it.</p>
+<p>Instead of joystick for movement it uses buttons much like on the right hand side of arcade sticks.</p>
+<p>The appeal of the hitbox having access to your fingertips instead of wrists. Only one company offical makes these and thanks to part delays with covid it's hard to get your hands on one.</p>
 </div>
 <div id="example11">
 
 <h2>RunDown</h2>
 <ul>
   <li>Easier on the wrist.</li>
-  <li></li>
-  <li></li>
+  <li>Faster inputs</li>
+  <li>Travel quite convenient</li>
 </ul>
 
 <h2>Cons</h2>
 
 <ul>
-  <li>Learning curve/li>
-  <li>2</li>
-  <li>3</li>
+  <li>Learning curve</li>
+  <li>Getting ahold of one</li>
+  <li>Banned in alot of tournaments</li>
 </ul>
 </div>
 <div id="example12">

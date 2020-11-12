@@ -4,7 +4,7 @@ export default () => `
     
 
 <div id="example7">
-<p>Not common at barcades but most common in console gaming scene and arcade in Asia. The base is smaller, buttons are convex,and the stick is cherry top.</p>
+<p>Not common at barcades but most common in console gaming scene and arcade in Asia. The base is smaller, buttons are convex,and the stick is cherry top. My most used out of the three. I have several of sticks.</p>
 
 
 <p>Mostly used for Japanese fighting games such as Street Fighter,Tekken,and Guilty Gear.Also used for alot of SHUMPS.
@@ -17,16 +17,16 @@ export default () => `
 
 <ul>
   <li>Slick</li>
-  <li>Fast</li>
+  <li>Easy to get parts for</li>
   <li>Lighter</li>
 </ul>
 
 <h2>Cons</h2>
 
 <ul>
-  <li>1</li>
-  <li>2</li>
-  <li>3</li>
+  <li>If you have bigger hands</li>
+  <li>Can break easy</li>
+  <li></li>
 </ul>
 
 </div>

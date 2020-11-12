@@ -11,17 +11,17 @@ export default () => `
 
 <h2>RunDown</h2>
 <ul>
-  <li>Size</li>
+  <li>Size </li>
   <li>Familiarity</li>
-  <li>Weight</li>
+  <li>Weight,won't budge.</li>
 </ul>
 
 <h2>Cons</h2>
 
 <ul>
-  <li>1</li>
-  <li>2</li>
-  <li>3</li>
+  <li>Stiffer</li>
+  <li>Harder to find outside of barcade</li>
+  <li>Heaviness</li>
 </ul>
 </div>
 <div id="example6">
